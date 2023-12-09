@@ -22,15 +22,30 @@ git status
 ```
 git clear
 ```
++ Lists all branches in the repository.
+```
+git branch
+```
++ Switches to a different branch in the repository.
+```
+git checkout [branch name]
+```
++ Merges changes from one branch into another.
+```
+git merge [branch name]
+```
 + Displays a log of all commits made to the repository.
 ```
 git log
 ```
-
-
-
-
-
++ Fetches changes from the remote repository and merges them into the local repository.
+```
+git pull
+```
++ Uploads changes from the local repository to the remote repository.
+```
+git push
+```
 
 
 
