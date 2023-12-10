@@ -46,6 +46,51 @@ git pull
 ```
 git push
 ```
-
-
-
++ Adds a new remote repository to the local repository.
+``` 
+git remote add [name] [URL]
+```
++ Lists all remote repositories connected to the local repository.
+```
+git remote -v
+```
++ Shows the differences between the local repository and the staging area or working directory.
+```
+git diff
+```
++ Resets changes made to the repository, removing them from the staging area.
+```
+git reset
+```
++ Removes a file from the repository.
+```
+git rm [file]
+```
++ Renames a file in the repository.
+```
+git mv [old file name] [new file name]
+```
++ Creates a new tag for a specific commit.
+```
+git tag [tag name]
+```
++ Downloads changes from the remote repository without merging them into the local repository.
+```
+git fetch
+```
++ Saves changes made to the working directory for later use.
+```
+git stash
+```
++ Fetches changes from the remote repository and rebases them onto the local branch.
+```
+git pull --rebase
+```
++ Shows who made each change to a specific file and when they made it.
+```
+git blame [file]
+```
++ Applies changes from a specific commit to the current branch.
+```
+git cherry-pick [commit]
+```
